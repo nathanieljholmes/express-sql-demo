@@ -1,3 +1,9 @@
+/**
+ * NOTE!
+ *     const results = await User.findAll({where: {name: }})
+ */
+
+
 const {Sequelize} = require('sequelize');
 const { init } = require('./models/Models')
 const routes = require('./routes/routes')
